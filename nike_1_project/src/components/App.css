@@ -21,14 +21,14 @@ body{
   justify-content: space-between;
   height: 72px;
   padding: 5px;
-  margin:0 auto;
   max-width: 1280px;
   align-items: center;
+  margin:0 auto;
 }
 ul{
   display: flex;
   justify-content: space-evenly;
-  gap: 15px;
+  gap: 24px;
 }
 
 li{
@@ -45,3 +45,39 @@ button{
   font-weight: 500;
 }
 
+.hero{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  
+}
+.hero-content{
+ flex-direction: column;
+ display: 36px;
+}
+.hero h1{
+ font-weight: 800;
+ line-height: 102px;
+ font-size: 108px;
+}
+.hero p{
+  font-weight: 600;
+  color:var(--gray);
+  max-width: 400px;
+}
+.hero-btn button{
+  font-size: 24px;
+}
+.hero-btn{
+  display: flex;
+  gap: 40px;
+}
+.secondary-btn{
+  background-color: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
+}
+.shopping p{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
