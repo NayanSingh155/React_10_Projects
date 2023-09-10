@@ -1,4 +1,3 @@
-import React from "react";
 
 const Navigation = () => {
     return (
@@ -18,5 +17,4 @@ const Navigation = () => {
         </nav>
     )
 }
-
-export default Navigation();
+export default Navigation;
